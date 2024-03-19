@@ -5,3 +5,6 @@ You can add database later on.
 
 to get all API details visit this link on your browser after executing this program.
 http://localhost:8080/swagger-ui/index.html#/
+
+to create docker Image:   docker build -t yourImageName .
+to run docker container:   docker run -itd -p yourPort:8080 yourImageName 
